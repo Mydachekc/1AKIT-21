@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+#include <math.h>
+
+int main(void) {
+
+    long n; 
+    
+    double dbln;
+
+    double sum=0;
+
+    double term;
+
+    const double eps=0.000001;
+
+    long k2=1;           /* pow(2,n)*/
+
+    short k1=1;          /* pow(-1,n)*/
+
+    for (n=0; ; n++, k2*=2, k1=-k1) {
+
+    dbln=n;
+
+    term=k1*(1-((k2)/(k2+1)));
+
+    if (fabs(term)>=eps)
+
+    sum+=term;
+
+    else break;
+
+    if (n==9)      
+
+    printf("Сума 10 членів ряду = %10.7lf\n",sum);
+
+    }
+
+    printf("Повна сума ряду = %10.7lf\n",sum);   
+
+    return 0;
+}

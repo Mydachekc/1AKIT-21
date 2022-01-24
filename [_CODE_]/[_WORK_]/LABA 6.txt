@@ -1,0 +1,23 @@
+/* Main function of the C program. */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float s;    //*First function //*Second function //*Thirth funcrtion
+    float res, res2, res3;  //*First ++ /*Second ++ //*Thirth ++
+    
+    //*Your functions*//
+    
+    printf ("Введіть число А :");
+    scanf ("%f", &s);
+    
+    if (s < 0) {res = (1/s+sin(s));
+    printf ("Відповідь : %f \n", res);}
+    else if (s > 0) {res3 = -s + sqrt(3 * sin(s));
+    printf ("Відповідь : %f \n", res3);}
+    else if (s == 0) printf ("Відповідь : %f \n", s);
+    else printf ("ERROR");
+}

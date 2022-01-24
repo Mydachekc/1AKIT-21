@@ -1,0 +1,51 @@
+=======================================
+		*PART 1*
+=======================================
+/* Main function of the C program. */ |
+				      |
+#include <stdio.h>		      |
+#include <stdlib.h>                   |
+                                      |
+int main()                            |
+{                                     |
+float a;  //Apple ammount             |
+float m;  //Money for 1 kg apple`s    |
+float r; // summ all                  |
+printf ("price for 1 kilograms:");    |
+scanf ("%f", &a);                     |
+printf ("killograms of apple:");      |
+scanf ("%f", &m);                     |
+r = a*m;                              |
+printf("Your result is:%f",r);        |
+}                                     |
+                                      |
+return 0;                             |
+=======================================
+
+=======================================
+		*PART 2*
+=======================================
+/* Main function of the C program. */ |
+                                      |
+#include <stdio.h>                    |
+#include <stdlib.h>                   |
+                                      |
+int main()                            |
+{                                     |
+    float p;   //Number of P          |
+    float rad; //Cilindr radius       |
+    float hoc; //Hight of cilindre    |
+    float res; //Result`s             |
+                                      |
+    printf("Radius :");               |
+    scanf("%f",&rad);                 |
+                                      |
+    printf("Hight of celinder`s :");  |
+    scanf("%f",&hoc);                 |
+                                      |
+    res = 2*3.14*rad*(rad+hoc);       |
+    printf("Result :%f",res);         |
+}                                     |
+                                      |
+return 0;                             |
+=======================================
