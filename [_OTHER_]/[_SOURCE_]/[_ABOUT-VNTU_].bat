@@ -13,9 +13,9 @@ echo.
 Set /p choice="Your choice: "
 Echo.
 if "%choice%"=="1" goto m1
-if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_OTHER_]\[_UPDATES_]\[_LATEST UPDATE_].txt")
-if "%choice%"=="3" (start "" "C:\Users\Cum\Desktop\[_INFO_]\[_JET_]\[_OTHER_]\[_INFO_]\[_ABOUT-PROGRAM_].txt")
-if "%choice%"=="4" (Echo go to folder "[_JET_]\[_OTHER_]\[_SOURCE_]")
+if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_OTHER_]\[_UPDATES_]\[_LATEST UPDATE_].txt")
+if "%choice%"=="3" (start "" "C:\Users\%username%\[_INFO_]\[_JET_]\[_OTHER_]\[_INFO_]\[_ABOUT-PROGRAM_].txt")
+if "%choice%"=="4" (Echo To chek the source go to folder "[_JET_]\[_OTHER_]\[_SOURCE_]")
 if "%choice%"=="0" goto end
 Echo.
 Echo Wrong selection, try again...
@@ -60,9 +60,9 @@ echo.
 Set /p choice="Choose lab: "
 Echo.
 if not defined choice goto m1.1
-if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_AUTO_]\[_WORK_]\LABA 1.3.txt")
-if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_AUTO_]\[_WORK_]\LABA 1.4.txt")
-if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_AUTO_]\[_WORK_]\LABA 1.5.txt")
+if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_AUTO_]\[_WORK_]\LABA 1.3.txt")
+if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_AUTO_]\[_WORK_]\LABA 1.4.txt")
+if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_AUTO_]\[_WORK_]\LABA 1.5.txt")
 if "%choice%"=="0" goto m1
 Echo.
 Echo Wrong selection, try again...
@@ -82,9 +82,9 @@ echo.
 Set /p choice="Choose lab: "
 Echo.
 if not defined choice goto m1.2
-if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_FIZIK_]\[_WORK_]\LABA 1.3.txt")
-if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_FIZIK_]\[_WORK_]\LABA 1.4.txt")
-if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_FIZIK_]\[_WORK_]\LABA 1.5.txt")
+if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_FIZIK_]\[_WORK_]\LABA 1.3.txt")
+if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_FIZIK_]\[_WORK_]\LABA 1.4.txt")
+if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_FIZIK_]\[_WORK_]\LABA 1.5.txt")
 if "%choice%"=="0" goto m1
 Echo.
 Echo Wrong selection, try again...
@@ -104,9 +104,9 @@ echo.
 Set /p choice="Choose lab: "
 Echo.
 if not defined choice goto m1.3
-if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_MATH_]\[_WORK_]\LABA 1.3.txt")
-if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_MATH_]\[_WORK_]\LABA 1.4.txt")
-if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_MATH_]\[_WORK_]\LABA 1.5.txt")
+if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_MATH_]\[_WORK_]\LABA 1.3.txt")
+if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_MATH_]\[_WORK_]\LABA 1.4.txt")
+if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_MATH_]\[_WORK_]\LABA 1.5.txt")
 if "%choice%"=="0" goto m1
 Echo.
 Echo Wrong selection, try again...
@@ -131,14 +131,14 @@ echo.
 Set /p choice="Choose lab: "
 Echo.
 if not defined choice goto m1.4
-if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 1.txt")
-if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 2.txt")
-if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 3.txt")
-if "%choice%"=="4" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 4.txt")
-if "%choice%"=="5" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 5.txt")
-if "%choice%"=="6" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 6.txt")
-if "%choice%"=="7" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 7.txt")
-if "%choice%"=="8" (start "" "C:\Users\%username%\Desktop\[_INFO_]\[_JET_]\[_CODE_]\[_WORK_]\LABA 8.txt")
+if "%choice%"=="1" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 1.txt")
+if "%choice%"=="2" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 2.txt")
+if "%choice%"=="3" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 3.txt")
+if "%choice%"=="4" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 4.txt")
+if "%choice%"=="5" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 5.txt")
+if "%choice%"=="6" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 6.txt")
+if "%choice%"=="7" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 7.txt")
+if "%choice%"=="8" (start "" "C:\Users\%username%\Desktop\1AKIT-21-main\[_CODE_]\[_WORK_]\LABA 8.txt")
 if "%choice%"=="0" goto m1
 Echo.
 Echo Wrong selection, try again...
